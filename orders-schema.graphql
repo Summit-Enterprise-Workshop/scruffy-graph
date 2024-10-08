@@ -16,7 +16,7 @@ type Query {
 }
 
 """
-Returns information about a specific purchase
+Returns information about a specific purchase 
 """
 type Order @key(fields: "id") {
   """
